@@ -14,4 +14,4 @@ target:
 	mkdir -p "./target"
 
 clean:
-	rm -rf target/
+	rm -rf target/ *.pyg

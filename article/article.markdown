@@ -22,6 +22,9 @@ for writing *very-simple* scientific articles, based on Markdown and \LaTeX.
     - \textbf{굵게}, \textit{이탤릭체}, \texttt{타이프라이터}, \textsf{세리프}
     - \textbf{Bold}, \textit{Italic}, \texttt{Typewriter}, \textsf{Serif}
     - 글꼴 변경: 나눔명조 및 은바탕
+- Nested List Level 1
+    - Nested List Level 2
+        - Nested List Level 3
 - Mathematical notations
 $$
 e^{i \pi} + 1 = 0
