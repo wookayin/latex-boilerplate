@@ -1,0 +1,59 @@
+% Common Packages
+% ===============
+
+\PassOptionsToPackage{no-math}{fontspec}
+
+\usepackage{kotex}
+\usepackage{cancel}
+\usepackage{fontspec}
+\usepackage{xcolor}
+\usepackage{lipsum}
+
+% Beamer Settings
+% ===============
+%\usetheme{Frankfurt}
+%\usetheme{m}
+%\usecolortheme{beaver}
+
+% Use Compact Headline (no navigation bars or spaces)
+\setbeamertemplate{headline}{}
+
+
+% Font Settings
+% =============
+\setmainhangulfont{UnBatang}
+\setmainhanjafont {UnBatang}
+\setsanshangulfont{UnDotum}
+
+% Use Roman-style fonts rather than Serif-style ones for math
+\usefonttheme[onlymath]{serif}
+
+
+% Styles
+% ======
+
+% Line Spread (120%)
+\linespread{1.2}
+
+% Use first-paragraph indents
+%\usepackage{indentfirst}
+
+% Paragraph lengths
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+
+
+
+% Beamer Customization
+% ====================
+
+\hypersetup{breaklinks=true,
+            bookmarks=true,
+            colorlinks=true,
+            citecolor=blue,
+            urlcolor=blue,
+            linkcolor=magenta,
+            pdfborder={0 0 0}}
+
+% Bibliography item should show the reference number, e.g. [1]
+\setbeamertemplate{bibliography item}{[\theenumiv]}
