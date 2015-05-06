@@ -13,6 +13,9 @@ Introduction
 
 Beamer is awesome!
 
+\pause
+Ta-da!
+
 ## List
 
 * Item Level 1
