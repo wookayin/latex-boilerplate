@@ -5,7 +5,10 @@
 
 \usepackage{kotex}
 \usepackage{cancel}
-\usepackage{fontspec}
+\usepackage{ifxetex}
+\ifxetex
+  \usepackage{fontspec}
+\fi
 \usepackage{xcolor}
 \usepackage{graphicx}
 \usepackage{lipsum}
@@ -17,8 +20,8 @@
 
 % Beamer Settings
 % ===============
+\usetheme{metropolis}     % A default theme.
 %\usetheme{Frankfurt}
-%\usetheme{m}
 %\usecolortheme{beaver}
 
 % Use Compact Headline (no navigation bars or spaces)
@@ -27,9 +30,11 @@
 
 % Font Settings
 % =============
-\setmainhangulfont{UnBatang}
-\setmainhanjafont {UnBatang}
-\setsanshangulfont{UnDotum}
+\ifxetex
+%\setmainhangulfont{UnBatang}
+%\setmainhanjafont {UnBatang}
+%\setsanshangulfont{UnDotum}
+\fi
 
 % Use Roman-style fonts rather than Serif-style ones for math
 \usefonttheme{professionalfonts}

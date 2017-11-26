@@ -1,5 +1,8 @@
 ---
 fontsize: 10pt
+classoption:
+  - t
+  - aspectratio=43
 
 title: A Simple Beamer Presentation
 author: Jongwook Choi
