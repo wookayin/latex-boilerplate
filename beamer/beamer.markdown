@@ -39,6 +39,23 @@ $$
 rather than the (default) serif style.
 
 
+## Blocks
+
+You can use three pre-defined blocks and other beamer blocks(e.g. \texttt{theorem}) as well.
+
+\begin{block}{Default}
+  Block with \texttt{\textbackslash begin\{block\}}.
+\end{block}
+
+\begin{alertblock}{Alert}
+  Block with \texttt{\textbackslash begin\{alertblock\}}.
+\end{alertblock}
+
+\begin{exampleblock}{Example}
+  Block with \texttt{\textbackslash begin\{exampleblock\}}.
+\end{exampleblock}
+
+
 ## Themes and Other Links
 
 - List of available beamer themes \cite{ReferenceA}.
